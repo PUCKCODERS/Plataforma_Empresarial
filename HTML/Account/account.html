@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PUCKCODERS</title>
     <link rel="stylesheet" href="/CSS/style.css" />
-    <link rel="stylesheet" href="/CSS/products.css" />
+    <link rel="stylesheet" href="/CSS/account.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -28,7 +28,7 @@
       <!-- Navegation -->
       <nav class="navbar multi-page-nav">
         <!-- Logo -->
-        <a href="../index.html">
+        <a href="/index.html">
           <div class="logo">
             <span>CODIGO Y <span>CREAR</span></span>
             <span>PLANTILLAS</span>
@@ -46,7 +46,7 @@
         <!-- Nav Items -->
         <ul class="nav-items">
           <li class="nav-item">
-            <a href="../index.html" class="nav-link">INICIO</a>
+            <a href="/index.html" class="nav-link">INICIO</a>
             <!-- Dropdown 1 -->
             <div class="dropdown dropdown-1">
               <div class="dropdown-1-left">
@@ -158,7 +158,7 @@
           </li>
 
           <li class="nav-item">
-            <a href="clients.html" class="nav-link">CLIENTES</a>
+            <a href="/HTML/Clients/clients.html" class="nav-link">CLIENTES</a>
             <!-- Dropdown 2 -->
             <div class="dropdown dropdown-2">
               <div class="clients-item">
@@ -197,10 +197,12 @@
             <!-- End of Dropdown 2 -->
           </li>
           <li class="nav-item">
-            <a href="products.html" class="nav-link">PRODUCTOS</a>
+            <a href="/HTML/Products/products.html" class="nav-link"
+              >PRODUCTOS</a
+            >
             <!-- Dropdown 3 -->
             <div class="dropdown dropdown-3">
-              <div class="productsP">
+              <div class="products">
                 <div class="product">
                   <i class="fa-solid fa-wrench"></i>
                   <div>
@@ -242,7 +244,7 @@
             <!-- End of Dropdown 3 -->
           </li>
           <li class="nav-item">
-            <a href="contact.html" class="nav-link">CONTACTO</a>
+            <a href="/HTML/Contact/contact.html" class="nav-link">CONTACTO</a>
             <!-- Dropdown 4 -->
             <div class="dropdown dropdown-4">
               <div class="contact-options">
@@ -276,7 +278,7 @@
             <!-- End of Dropdown 4 -->
           </li>
           <li class="nav-item">
-            <a href="account.html" class="nav-link">CUENTA</a>
+            <a href="/HTML/Account/account.html" class="nav-link">CUENTA</a>
             <!-- Dropdown 5 -->
             <div class="dropdown dropdown-5">
               <form class="account-form">
@@ -295,62 +297,50 @@
             <!-- End of Dropdown 5 -->
           </li>
           <li class="nav-item no-triangle">
-            <a href="pricing.html" class="nav-btn">PRECIOS</a>
+            <a href="/HTML/Pricing/pricing.html" class="nav-btn">PRECIOS</a>
           </li>
         </ul>
         <!-- End of Nav Items -->
       </nav>
       <!-- End of Navegation -->
 
-      <!-- Products -->
-      <section class="products">
-        <div class="products-wrapper">
-          <div class="products-header">
-            <h1>TEMAS Y COMPLEMENTOS</h1>
-            <h3>CONSTRUYE LOS TEMAS Y COMPLEMENTOS MÁS POPULARES DEL MUNDO</h3>
+      <!-- Account -->
+
+      <section class="account">
+        <div class="account-wrapper">
+          <div class="account-circle"></div>
+          <div class="account-header">
+            <h1>ESPACIO DE MIEMBROS</h1>
+            <h3>
+              ADMINISTRA TU CUENTA, DESCARGA PRODUCTOS Y CHATEA CON NOSOTROS
+              24/7
+            </h3>
           </div>
-          <div class="products-content">
-            <div class="products-content-left">
-              <h1>CONSTRUIR</h1>
+          <div class="account-form-wrapper">
+            <span class="material-symbols-rounded"> person_check </span>
+            <form>
+              <div class="account-inputs">
+                <input type="text" placeholder="NOMBRE DE USUARIO" />
+                <input type="password" placeholder="CONTRASEÑA" />
+              </div>
+              <div class="account-check">
+                <input type="checkbox" id="account-check" />
+                <label for="account-check">RECORDARME</label>
+              </div>
+              <button type="button">INGRESAR</button>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                vel odio cumque sequi, repudiandae ut ipsum! Impedit cupiditate
-                debitis ea animi necessitatibus ipsa eos iste, assumenda sit
-                sapiente itaque alias.
+                ¿OLVIDÓ SU <span>NOMBRE DE USUARIO </span> O
+                <span>CONTRASEÑA</span> ?
               </p>
-              <button type="button" class="products-btn">
-                APRENDE SOBRE NOSOTROS
-              </button>
-            </div>
-            <div class="products-content-right">
-              <img src="/images/businnes/businnes1/businnes2.png" />
-              <img src="/images/businnes/businnes1/businnes1.webp" />
-              <img src="/images/businnes/businnes1/businnes3.png" />
-            </div>
+            </form>
           </div>
-          <div class="products-promo">
-            <div class="products-promo-shapes">
-              <div class="promo-rectangle"></div>
-              <div class="small-circle"></div>
-              <div class="large-circle"></div>
-            </div>
-            <div class="promo-content">
-              <h1>
-                MÁS DE 100.000 CLIENTES YA ESTÁN CONSTRUYENDO SU SITIOS WEB
-                IMPRESIONANTES Y MODERNOS CON CODIFICACIÓN Y CREACIÓN. ÚNETE A
-                LA COMUNIDAD MÁS PODEROSA
-              </h1>
-              <button type="button">REGÍSTRESE HOY</button>
-              <p>
-                OFRECEMOS UNA GARANTÍA DE DEVOLUCIÓN DE DINERO DE 30 DÍAS,
-                ¡ÚNASE A NOSOTROS!
-              </p>
-              <div class="promo-shadow"></div>
-            </div>
-          </div>
+          <button type="button" class="btn-out">
+            ¿AÚN NO ES MIEMBRO? ¡ÚNETE HOY!
+          </button>
         </div>
       </section>
-      <!-- End of Products -->
+
+      <!-- End of Account -->
 
       <!-- Footer -->
       <footer>
@@ -394,19 +384,18 @@
             </div>
           </div>
           <div class="footer-bottom">
-            <a href="../index.html">INICIO</a>
-            <a href="clients.html">CLIENTES</a>
-            <a href="products.html">PRODUCTOS</a>
-            <a href="contact.html">CONTACTO</a>
-            <a href="account.html">CUENTA</a>
-            <a href="pricing.html">PRECIOS</a>
+            <a href="/index.html">INICIO</a>
+            <a href="/HTML/Clients/clients.html">CLIENTES</a>
+            <a href="/HTML/Products/products.html">PRODUCTOS</a>
+            <a href="/HTML/Contact/contact.html">CONTACTO</a>
+            <a href="/HTML/Account/account.html">CUENTA</a>
+            <a href="/HTML/Pricing/pricing.html">PRECIOS</a>
           </div>
         </div>
       </footer>
       <!-- End of Footer -->
     </div>
     <!-- End of Container-->
-    <script src="/JS/products.js"></script>
     <script src="/JS/script.js"></script>
   </body>
 </html>

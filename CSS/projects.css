@@ -1,0 +1,32 @@
+.projects {
+  width: 100%;
+  min-height: 100%;
+  margin-top: 15rem;
+}
+
+/* Banner */
+.projects-banner {
+  position: absolute;
+  top: 18%;
+  left: 20%;
+  z-index: 4;
+}
+
+.projects-banner h1 {
+  font-family: "Mooli", cursive;
+  font-size: 13rem;
+  background: linear-gradient(to right, #011af7, #0195f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; /* Hace que se vea el gradiente */
+  text-shadow: 0.6rem 0.6rem rgba(105, 105, 105, 0.3);
+}
+
+.projects-banner h3 {
+  font-size: 3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #011af7, #0195f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 0.3rem 0.2rem rgba(105, 105, 105, 0.3);
+}

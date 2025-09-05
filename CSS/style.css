@@ -940,15 +940,18 @@ header {
 
 .filter-nav {
   width: 80%;
-  height: 10rem;
+  min-height: 10rem; /* mejor min-height en vez de height fijo */
   background-color: #f1f1f1;
   border: 1px solid #011af7;
   box-shadow: 6px 5px 6px #011af7;
   border-radius: 1rem;
   display: flex;
+  flex-wrap: wrap; /* 👈 permite varias filas */
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center; /* 👈 centra todo mejor */
+  gap: 2rem; /* 👈 espacio entre enlaces */
   margin-bottom: 6rem;
+  padding: 1rem;
 }
 
 .filter-nav-link {
@@ -965,7 +968,7 @@ header {
   text-transform: uppercase;
   color: #011af7;
   letter-spacing: 0.1rem;
-  transition: transform 0.3s;
+  transition: transform 0.3s, background-color 0.3s, color 0.3s;
 }
 
 .filter-nav-link:hover {
